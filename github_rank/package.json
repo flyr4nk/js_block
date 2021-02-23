@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/i5ting/githubrank#readme",
   "dependencies": {
-    "crawler": "^0.4.3",
+    "crawler": "^1.0.2",
     "jsdom": "^9.8.0"
   }
 }
