@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "preferGlobal": "true",
   "bin": {
@@ -22,7 +24,9 @@
   },
   "homepage": "https://github.com/i5ting/githubrank#readme",
   "dependencies": {
-    "crawler": "^0.4.3",
-    "jsdom": "^9.8.0"
-  }
+    "crawler": "^1.1.1",
+    "jsdom": "^9.8.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
