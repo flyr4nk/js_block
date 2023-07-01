@@ -23,6 +23,6 @@
   "homepage": "https://github.com/i5ting/githubrank#readme",
   "dependencies": {
     "crawler": "^0.4.3",
-    "jsdom": "^9.8.0"
+    "jsdom": "^16.5.0"
   }
 }
